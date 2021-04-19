@@ -1,0 +1,25 @@
+body {
+    background: rgba(40, 42, 54, 0.99);
+    color: white;
+    font-family: 'arial';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 100px);
+}
+
+.container div {
+    display: flex;
+    background: rgba(255,255,255,0.2);
+    justify-content: center;
+    align-items: center;
+}
