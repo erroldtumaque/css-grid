@@ -12,3 +12,8 @@ Learn CSS Grid from: https://www.youtube.com/watch?v=t6CBKf8K_Ac
 ### Part Two
 1. Auto-fit and Minmax
 2. Implicit Rows
+3. Positioning Items
+4. Content-start
+5. Justify Items
+6. Image Gallery
+7. Alignment
