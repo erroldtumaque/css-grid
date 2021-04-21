@@ -1,0 +1,43 @@
+body {
+    background: rgba(40, 42, 54, 0.99);
+    color: white;
+    font-family: 'arial';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.flexbox-header {
+    display: flex;
+}
+
+.flexbox-header > div:nth-child(3) {
+    margin-left: auto;
+}
+
+.grid-page {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px 200px 40px;
+}
+
+.header {
+    grid-column: 1 / -1;
+    display: flex;
+}
+
+.header > div:nth-child(3) {
+    margin-left: auto;
+}
+
+.menu {
+    grid-column: 1 / 2;
+}
+
+.content { 
+    grid-column: 2 / -1;
+}
+
+.footer { 
+    grid-column: 1 / -1;
+}

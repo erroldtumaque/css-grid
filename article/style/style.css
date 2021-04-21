@@ -1,0 +1,48 @@
+body {
+    background: rgba(40, 42, 54, 0.99);
+    color: white;
+    font-family: 'arial';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 100px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 80px 1fr 80px;
+    grid-column-gap: 10px;
+}
+
+article > * {
+    grid-column: 2;
+    min-width: 0;
+}
+
+article > figure {
+    grid-column: 1 / -1; 
+    margin: 20px 0;
+}
+
+article > .aside {
+    grid-column: 3;
+    color: #666;
+    font-size: 0.8em;
+}
+
+article > blockquote {
+    grid-column: 1 / -1;
+    margin: 10px 0;
+    color: #666;
+    border-left: 10px solid #eee;
+    padding-left: 10px;
+}

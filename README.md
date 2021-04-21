@@ -17,3 +17,8 @@ Learn CSS Grid from: https://www.youtube.com/watch?v=t6CBKf8K_Ac
 5. Justify Items
 6. Image Gallery
 7. Alignment
+
+### Part Three
+1. Auto-fit Auto-fill
+2. Article
+3. Grid vs Flexbox
