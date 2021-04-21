@@ -1,0 +1,35 @@
+body {
+    background: rgba(40, 42, 54, 0.99);
+    color: white;
+    font-family: 'arial';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end main-end];
+    grid-template-rows: [main-start] 40px [content-start] auto [content-end] 40px [content-end];
+}
+
+.header {
+    grid-column: main;
+    background: rgba(255,255,255,0.2);
+}
+
+.menu {}
+
+.content {
+    grid-area: content;
+    background: rgba(255,255,255,0.2);
+}
+
+.footer {
+    grid-column: main;
+    background: rgba(255,255,255,0.2);
+}
